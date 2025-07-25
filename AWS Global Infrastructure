@@ -1,0 +1,36 @@
+## Where does all this cloud computing Works?
+
+- 69 Availability Zones
+- 22 Geographic Regions
+- Way more Edge Locations!
+
+More than 190 countries!!
+
+REGIONS: 
+- Physical locations in the world.
+- Geographically  distinct location which has multiple datacenters (AZs).
+- Each region physically isolated and independent of every other region in terms of location, power , water supply
+- Each region has atleast 2 AZs.
+- AWS largest region is US-EAST.
+- New services get first available in US-EAST.
+
+
+AVAILABILITY ZONES: 
+- One or more discrete data centers.
+- An AZ is a data center owned and operated by AWS in which AWS services run.
+- Represented by Region-code, followed by a letter identifier eg. us-east-1a.
+- Multi-AZ distributing your instances across multiple AZs allows failover configuration for handling requests when one goes down.
+- <10ms latency between AZs.
+
+
+EDGE LOCATIONS:
+- data centers owned by a trusted partener of AWS.
+- These locations serve request for cloud front and Route53. Request goes either of these services will be routed to nearest edge locations automatically.
+- S3 transfer Acceleration traffic and API gateway endpoint traffic also use the AWS Edge Network.
+- This allows latency no matter where the end user is geographically located.
+
+
+GovCloud (US):
+- AWS GovCloud regions allow customers to host sensitive Controlled Unclassified infromation and other types of regulated workloads.
+- GovCloud regions are only operated by employees who are U.S citizens, on U.S. Soil.
+- They are only accessible to US entitiesand root account holders who pass a screening process. 
