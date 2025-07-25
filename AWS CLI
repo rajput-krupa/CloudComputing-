@@ -6,6 +6,6 @@ AWS SDKs and APIs offer programatic , code based access, allowing users to integ
 
 Now I want to connect my Cloud to my AWS CLI on desktop.
 STEP 1: 
-I will go to my users, select user in my Case "ALEX" --> ![Step 1 Screenshot] 
-
+I will go to my users, select user in my Case "ALEX" -->
+![IAM Screenshot](https://github.com/user-attachments/assets/161e4eb4-d8ee-49eb-8205-ff828a9bd5c0)
 go to security credentials --> Access Key
